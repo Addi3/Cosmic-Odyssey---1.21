@@ -2,3 +2,6 @@
 
 Cosmic Odyssey is a remake of 'Tardis Reimagined' by me - Addie
 This will add a bunch of cool time travel and doctor who related stuff into minecraft via a datapack and recourcepack
+
+# Credits
+- Lead Dev / Texturer : [Addison](https://www.youtube.com/channel/UCvhwMmPtf0YfL07q_w_uCoA)

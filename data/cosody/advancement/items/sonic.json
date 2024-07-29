@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "tardis": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cosody:sonic"
+            }
+        }
+    },
+    "rewards": {
+        "function": "cosody:sonic/get_sonic"
+    }
+
+}

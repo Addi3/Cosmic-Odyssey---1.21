@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick[custom_name='{"color":"gold","text":"-Sonic Modulator-"}',custom_model_data=1] 1

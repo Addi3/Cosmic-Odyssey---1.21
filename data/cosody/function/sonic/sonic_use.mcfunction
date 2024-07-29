@@ -1,0 +1,1 @@
+execute if score @s sonic_use matches 2.. run scoreboard players reset @s sonic_use

@@ -10,3 +10,6 @@ execute at @e[tag=rift] if entity @p[distance=..2] run function cosody:rift/play
 execute at @e[tag=rift] if entity @p[distance=2..5] run function cosody:rift/player_closer
 execute at @e[tag=rift] if entity @p[distance=10..50] run function cosody:rift/player_close
 execute at @e[tag=rift] if entity @p[distance=50..] run function cosody:rift/player_far
+
+#tardises
+function cosody:tardis1_root/tardis1_tick

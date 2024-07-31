@@ -5,3 +5,4 @@ execute on passengers if entity @s[tag=aj.cosody.bone.octagon] run function anim
 execute on passengers if entity @s[tag=aj.cosody.bone.console_base] run function animated_java:cosody/variants/default/zzz/2
 execute on passengers if entity @s[tag=aj.cosody.bone.rotor] run function animated_java:cosody/variants/default/zzz/3
 execute on passengers if entity @s[tag=aj.cosody.bone.power_lever] run function animated_java:cosody/variants/default/zzz/4
+execute on passengers if entity @s[tag=aj.cosody.bone.key] run function animated_java:cosody/variants/default/zzz/5

@@ -1,1 +1,1 @@
-scoreboard players remove charge sonic_use 5
+scoreboard players remove charge sonic_use 1

@@ -11,4 +11,4 @@ execute at @p run fill ~ ~ ~ ~3 ~3 ~3 minecraft:iron_door[facing=west,hinge=righ
 execute at @p run fill ~ ~ ~ ~3 ~3 ~3 minecraft:iron_door[facing=north,hinge=right,open=true,powered=true] replace minecraft:iron_door[facing=north,hinge=right,powered=false]
 
 execute at @p run kill @e[type=item,distance=..5,nbt={Item:{id:"minecraft:iron_door"}}]
-scoreboard players remove charge sonic_use 5
+scoreboard players remove charge sonic_use 1

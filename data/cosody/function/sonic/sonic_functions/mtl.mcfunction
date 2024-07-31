@@ -1,1 +1,1 @@
-scoreboard players reset @p sonic_use
+scoreboard players remove charge sonic_use 5

@@ -7,3 +7,4 @@ tag @s remove aj.cosody.animation.powerlever.on.animation.playing
 tag @s remove aj.cosody.animation.powerlever.off.animation.playing
 tag @s remove aj.cosody.animation.key.on.animation.playing
 tag @s remove aj.cosody.animation.key.off.animation.playing
+tag @s remove aj.cosody.animation.button.down.animation.playing

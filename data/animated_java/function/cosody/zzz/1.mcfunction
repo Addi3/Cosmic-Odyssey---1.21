@@ -9,9 +9,9 @@ execute on vehicle on passengers if entity @s[tag=aj.cosody.bone.console_base] r
 data modify entity @s data.bones.bone_console_base set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cosody.bone.rotor] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_rotor set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cosody.bone.button1] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_button1 set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cosody.bone.power_lever] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_power_lever set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cosody.bone.key] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_key set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.cosody.bone.button1] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
-data modify entity @s data.bones.bone_button1 set from storage aj:uuid main.out

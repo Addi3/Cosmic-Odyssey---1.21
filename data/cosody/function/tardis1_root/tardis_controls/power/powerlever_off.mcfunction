@@ -2,3 +2,4 @@ execute if score powerlever_on tardis1 matches 1 as @e[tag=aj.cosody.root] run f
 execute if score powerlever_on tardis1 matches 1 at @e[tag=console] run playsound minecraft:lever2 ambient @p[distance=..5] ~ ~ ~ .5 .9 1
 advancement revoke @p only cosody:tardis/powerlever_off
 scoreboard players set powerlever_on tardis1 0
+execute if score key_on tardis1 matches 1 if score button1_on tardis1 matches 1 if score powerlever_on tardis1 matches 0 run function cosody:tardis1_root/tardis_controls/power/power_off

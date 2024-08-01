@@ -4,5 +4,5 @@ execute if score @s aj.tween_duration matches 1.. run return 1
 execute if score @s aj.tween_duration matches 0 on passengers run data modify entity @s interpolation_duration set value 1
 execute store result storage aj:temp frame int 1 run scoreboard players get @s aj.rotor.off.animation.frame
 function animated_java:cosody/animations/rotor.off.animation/zzz/apply_frame with storage aj:temp
-execute if score @s aj.rotor.off.animation.frame matches 20.. run return run function animated_java:cosody/animations/rotor.off.animation/pause
+execute if score @s aj.rotor.off.animation.frame matches 10.. run return run function animated_java:cosody/animations/rotor.off.animation/pause
 scoreboard players add @s aj.rotor.off.animation.frame 1

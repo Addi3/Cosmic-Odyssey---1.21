@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 on passengers run data modify en
 execute store result storage aj:temp frame int 1 run scoreboard players get @s aj.flight.animation.frame
 execute if score @s aj.flight.animation.frame matches -1 run function animated_java:cosody/animations/flight.animation/zzz/zzz/0
 function animated_java:cosody/animations/flight.animation/zzz/apply_frame with storage aj:temp
-execute if score @s aj.flight.animation.frame matches 39.. run return run function animated_java:cosody/animations/flight.animation/zzz/zzz/1
+execute if score @s aj.flight.animation.frame matches 29.. run return run function animated_java:cosody/animations/flight.animation/zzz/zzz/1
 scoreboard players add @s aj.flight.animation.frame 1

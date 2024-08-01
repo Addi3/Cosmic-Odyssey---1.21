@@ -2,9 +2,9 @@
 scoreboard objectives add aj.flight.animation.frame dummy
 scoreboard objectives add aj.rotor.off.animation.frame dummy
 scoreboard objectives add aj.rotor.on.animation.frame dummy
-scoreboard objectives add aj.powerlever.on.animation.frame dummy
-scoreboard objectives add aj.powerlever.off.animation.frame dummy
+scoreboard objectives add aj.button1.press.animation.frame dummy
 scoreboard objectives add aj.key.on.animation.frame dummy
 scoreboard objectives add aj.key.off.animation.frame dummy
-scoreboard objectives add aj.button.down.animation.frame dummy
+scoreboard objectives add aj.powerlever.on.animation.frame dummy
+scoreboard objectives add aj.powerlever.off.animation.frame dummy
 execute as @e[type=item_display,tag=aj.cosody.root] unless score @s aj.is_rig_loaded matches 1 at @s run function animated_java:cosody/root/on_load

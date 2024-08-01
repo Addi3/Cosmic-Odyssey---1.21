@@ -3,8 +3,8 @@ execute unless entity @s[type=item_display,tag=aj.cosody.root] run return run fu
 tag @s remove aj.cosody.animation.flight.animation.playing
 tag @s remove aj.cosody.animation.rotor.off.animation.playing
 tag @s remove aj.cosody.animation.rotor.on.animation.playing
-tag @s remove aj.cosody.animation.powerlever.on.animation.playing
-tag @s remove aj.cosody.animation.powerlever.off.animation.playing
+tag @s remove aj.cosody.animation.button1.press.animation.playing
 tag @s remove aj.cosody.animation.key.on.animation.playing
 tag @s remove aj.cosody.animation.key.off.animation.playing
-tag @s remove aj.cosody.animation.button.down.animation.playing
+tag @s remove aj.cosody.animation.powerlever.on.animation.playing
+tag @s remove aj.cosody.animation.powerlever.off.animation.playing

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "tardis": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cosody:key"
+            }
+        }
+    },
+    "rewards": {
+        "function": "cosody:bio_key/get_biokey"
+    }
+
+}

@@ -9,3 +9,8 @@ scoreboard players set key_on tardis1 0
 #trust
 scoreboard objectives add tardis1_trust dummy
 scoreboard players set @p tardis1_trust 0
+
+#door
+scoreboard objectives add tardis1_door dummy
+scoreboard players set tardis1_varient tardis1_door 1
+scoreboard players set tardis1_door tardis1_door 0

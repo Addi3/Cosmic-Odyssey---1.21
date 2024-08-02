@@ -17,5 +17,5 @@ scoreboard players set tardis1_door tardis1_door 0
 
 #timers
 scoreboard objectives add tardis1_timers dummy
-scoreboard players add tardis1smoke tardis1_timers 0
-scoreboard players add tardis1in/exterior tardis1_timers 0
+scoreboard players set tardis1smoke tardis1_timers 0
+scoreboard players set tardis1in/exterior tardis1_timers 0

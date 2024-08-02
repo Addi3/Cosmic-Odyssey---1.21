@@ -14,3 +14,8 @@ scoreboard players set @p tardis1_trust 0
 scoreboard objectives add tardis1_door dummy
 scoreboard players set tardis1_varient tardis1_door 1
 scoreboard players set tardis1_door tardis1_door 0
+
+#timers
+scoreboard objectives add tardis1_timers dummy
+scoreboard players add tardis1smoke tardis1_timers 0
+scoreboard players add tardis1in/exterior tardis1_timers 0

@@ -20,3 +20,13 @@ execute as @e[tag=tardis1] at @s unless entity @a[distance=..1] run tag @a remov
 execute as @e[tag=intopen] at @s if entity @p[distance=..1,tag=inside] run tag @e[distance=..2,tag=inside] add exiting
 execute as @e[tag=intopen] at @s unless entity @a[distance=..1,tag=inside] run tag @a[tag=inside] remove exiting
 execute as @e[tag=tardis1] at @s if entity @a[distance=..3,tag=!inside] run tag @a remove exiting
+
+#timers
+scoreboard players add tardis1smoke tardis1_timers 1
+execute if score tardis1smoke tardis1_timers matches 100 run scoreboard players set tardis1smoke tardis1_timers 0
+scoreboard players add tardis1in/exterior tardis1_timers 1
+execute if score tardis1in/exterior tardis1_timers matches 1040 run scoreboard players set tardis1in/exterior tardis1_timers 0
+
+#ambience
+function cosody:tardis1_root/ambience/smoke
+execute if score tardis1_power_true tardis1 matches 1 run function cosody:tardis1_root/ambience/interior

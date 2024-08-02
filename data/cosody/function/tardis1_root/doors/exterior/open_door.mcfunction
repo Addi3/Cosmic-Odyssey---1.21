@@ -2,7 +2,7 @@ scoreboard players add tardis1_door tardis1_door 1
 execute if score tardis1_door tardis1_door matches 3 run scoreboard players set tardis1_door tardis1_door 0
 tag @e[tag=tardis1] add open
 tag @e[tag=intdoor] add intopen
-execute if score tardis1_door tardis1_door matches 1 run playsound minecraft:ship_ambience4 ambient @p ~ ~ ~ .8 1 1
+execute if score tardis1_door tardis1_door matches 1 if score tardis1_power_true tardis1 matches 1 run playsound minecraft:ship_ambience4 ambient @p ~ ~ ~ .8 1 1
 
 #tt_capsule
 

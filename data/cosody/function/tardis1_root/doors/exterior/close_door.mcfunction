@@ -1,5 +1,5 @@
 scoreboard players remove tardis1_door tardis1_door 1
-execute if score tardis1_door tardis1_door matches -1 run scoreboard players set tardis1_door tardis1_door 2
+execute if score tardis1_door tardis1_door matches -1 run scoreboard players set tardis1_door tardis1_door 0
 execute if score tardis1_door tardis1_door matches 0 run tag @e[tag=tardis1] remove open
 execute if score tardis1_door tardis1_door matches 0 run tag @e[tag=intdoor] remove intopen
 execute at @e[tag=tardis1] run stopsound @a[distance=..5] ambient

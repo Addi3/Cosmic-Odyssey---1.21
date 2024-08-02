@@ -17,9 +17,9 @@ execute as @e[tag=tardis1] at @s if entity @p[distance=..1] run tag @e[distance=
 execute as @e[tag=tardis1] at @s unless entity @a[distance=..1] run tag @a remove entering
 
 #door exit detection
-execute as @e[tag=intopen] at @s if entity @p[distance=..1,tag=inside] run tag @e[distance=..2,tag=inside] add exiting
-execute as @e[tag=intopen] at @s unless entity @a[distance=..1,tag=inside] run tag @a[tag=inside] remove exiting
-execute as @e[tag=tardis1] at @s if entity @a[distance=..3,tag=!inside] run tag @a remove exiting
+execute as @e[tag=intopen] at @s if entity @p[distance=..1,tag=inside1] run tag @e[distance=..2,tag=inside1] add exiting
+execute as @e[tag=intopen] at @s unless entity @a[distance=..1,tag=inside1] run tag @a[tag=inside1] remove exiting
+execute as @e[tag=tardis1] at @s if entity @a[distance=..3,tag=!inside1] run tag @a remove exiting
 
 #timers
 scoreboard players add tardis1smoke tardis1_timers 1

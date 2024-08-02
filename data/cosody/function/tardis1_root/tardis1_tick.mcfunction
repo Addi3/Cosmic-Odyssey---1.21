@@ -30,3 +30,7 @@ execute if score tardis1in/exterior tardis1_timers matches 1040 run scoreboard p
 #ambience
 function cosody:tardis1_root/ambience/smoke
 execute if score tardis1_power_true tardis1 matches 1 run function cosody:tardis1_root/ambience/interior
+
+#jukebox
+execute in cosody:interior1 if block 26 110 16 minecraft:jukebox[has_record=true] run function cosody:tardis1_root/jukebox/playing_true
+execute in cosody:interior1 if block 26 110 16 minecraft:jukebox[has_record=false] run function cosody:tardis1_root/jukebox/playing_false

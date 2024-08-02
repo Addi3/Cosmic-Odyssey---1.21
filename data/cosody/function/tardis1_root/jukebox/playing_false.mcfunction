@@ -1,0 +1,1 @@
+item replace entity @e[tag=jukebox] armor.head with minecraft:stick[custom_model_data=1]

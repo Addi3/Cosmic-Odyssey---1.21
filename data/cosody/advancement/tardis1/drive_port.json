@@ -17,6 +17,6 @@
       }
     },
     "rewards": {
-      "function": "cosody:tardis1_root/tardis_controls/drive_port"
+      "function": "cosody:tardis1_root/tardis_controls/drive_port/drive_port"
     }
   }

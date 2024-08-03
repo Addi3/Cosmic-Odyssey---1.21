@@ -34,3 +34,6 @@ execute if score tardis1_power_true tardis1 matches 1 run function cosody:tardis
 #jukebox
 execute in cosody:interior1 if block 26 110 16 minecraft:jukebox[has_record=true] run function cosody:tardis1_root/jukebox/playing_true
 execute in cosody:interior1 if block 26 110 16 minecraft:jukebox[has_record=false] run function cosody:tardis1_root/jukebox/playing_false
+
+#barrier
+execute in cosody:interior1 run setblock 21 111 23 minecraft:barrier

@@ -37,3 +37,8 @@ execute in cosody:interior1 if block 26 110 16 minecraft:jukebox[has_record=fals
 
 #barrier
 execute in cosody:interior1 run setblock 21 111 23 minecraft:barrier
+
+#sonic_tick
+execute as @p run function cosody:tardis1_root/sonic/sonic_tick
+execute as @p run function cosody:tardis1_root/sonic/sonic_use
+execute as @p run function cosody:tardis1_root/sonic/sonic_activate

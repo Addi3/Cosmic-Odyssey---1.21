@@ -1,2 +1,3 @@
 advancement revoke @p only cosody:tardis1/drive_port
-execute if entity @p[nbt={SelectedItem:{id:"minecraft:stick",count:1,components:{"minecraft:lore":['{"color":"gold","text":"Linked To:None"}'],"minecraft:custom_model_data":3}}}] run function cosody:tardis1_root/tardis_controls/drive_port/drive_port_key
+execute if entity @p[nbt={SelectedItem:{id:"minecraft:stick",count:1,components:{"minecraft:lore":['{"color":"gold","text":"Linked To: None"}'],"minecraft:custom_model_data":3}}}] run function cosody:tardis1_root/tardis_controls/drive_port/drive_port_key
+execute if entity @p[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:lore":['{"color":"gold","text":"Linked To: None"}'],"minecraft:custom_model_data":5}}}] run function cosody:tardis1_root/tardis_controls/drive_port/drive_port_sonic

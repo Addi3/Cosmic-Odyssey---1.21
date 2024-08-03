@@ -1,0 +1,2 @@
+give @p carrot_on_a_stick[custom_name='{"color":"gold","text":"-Sonic Modulator-"}',lore=['{"color":"aqua","text":"Scanning"}','{"color":"gold","text":"Linked To: TARDIS1"}'],custom_model_data=1] 1
+clear @p minecraft:carrot_on_a_stick[custom_name='{"color":"gold","text":"-Sonic Modulator-"}',lore=['{"color":"aqua","text":"Disabled"}','{"color":"gold","text":"Linked To: None"}'],custom_model_data=5]

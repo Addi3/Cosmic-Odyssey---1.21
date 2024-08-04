@@ -25,4 +25,4 @@ execute if entity @p[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",component
 
 execute if entity @p[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'{"color":"gold","text":"-Sonic Modulator-"}',"minecraft:lore":['{"color":"aqua","text":"Disarm"}','{"color":"gold","text":"Linked To: TARDIS1"}']}}]}] if score @p tardis1_sonic matches 1 run function cosody:tardis1_root/sonic/sonic_functions/disarm
 
-execute if entity @p[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'{"color":"gold","text":"-Sonic Modulator-"}',"minecraft:lore":['{"color":"aqua","text":"Disable"}','{"color":"gold","text":"Linked To: TARDIS1"}']}}]}] if score @p tardis1_sonic matches 1 run function cosody:tardis1_root/sonic/sonic_functions/disable
+execute if entity @p[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'{"color":"gold","text":"-Sonic Modulator-"}',"minecraft:lore":['{"color":"aqua","text":"Disabled"}','{"color":"gold","text":"Linked To: TARDIS1"}']}}]}] if score @p tardis1_sonic matches 1 run function cosody:tardis1_root/sonic/sonic_functions/disable

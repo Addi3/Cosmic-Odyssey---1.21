@@ -1,1 +1,1 @@
-scoreboard players reset @p sonic_use
+scoreboard players remove @p tardis1_sonic 1

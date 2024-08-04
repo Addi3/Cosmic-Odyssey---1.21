@@ -40,5 +40,4 @@ execute in cosody:interior1 run setblock 21 111 23 minecraft:barrier
 
 #sonic_tick
 execute as @p run function cosody:tardis1_root/sonic/sonic_tick
-execute as @p run function cosody:tardis1_root/sonic/sonic_use
-execute as @p run function cosody:tardis1_root/sonic/sonic_activate
+execute if score @p tardis1_sonic matches 2.. run scoreboard players set @p tardis1_sonic 0

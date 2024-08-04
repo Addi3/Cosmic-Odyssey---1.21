@@ -1,1 +1,1 @@
-scoreboard players remove charge sonic_use 1
+scoreboard players remove @p tardis1_sonic 1

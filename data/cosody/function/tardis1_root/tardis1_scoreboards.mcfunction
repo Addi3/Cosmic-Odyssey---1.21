@@ -19,3 +19,6 @@ scoreboard players set tardis1_door tardis1_door 0
 scoreboard objectives add tardis1_timers dummy
 scoreboard players set tardis1smoke tardis1_timers 0
 scoreboard players set tardis1in/exterior tardis1_timers 0
+
+#sonic
+scoreboard objectives add tardis1_sonic minecraft.used:minecraft.carrot_on_a_stick
